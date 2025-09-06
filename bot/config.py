@@ -5,7 +5,7 @@ class Telegram:
     OWNER_ID = 1837916554
     ALLOWED_USER_IDS = [1837916554]   # list form
     BOT_USERNAME = "Stream_134vbot"
-    BOT_TOKEN = "7829016089:AAG4jcffLZYLyKs7VCeP6Fe_SvCQspieAuc"
+    BOT_TOKEN = "7829016089:AAG4jcffLZYLyKs7VCeP6Fe_SvCQspieAuca"
 
     # ✅ If public channel, you can use username
    # CHANNEL_ID = "@chadstreamz"  
@@ -62,4 +62,5 @@ LOGGER_CONFIG_JSON = {
         }
     }
 }
+
 
