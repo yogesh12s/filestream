@@ -1,8 +1,5 @@
 from os import environ as env
-from dotenv import load_dotenv
 
-# Load environment variables from .env (for local dev, Render will inject env directly)
-load_dotenv()
 
 class Telegram:
     API_ID = int(env.get("TELEGRAM_API_ID", 12345))
@@ -58,3 +55,4 @@ LOGGER_CONFIG_JSON = {
         }
     }
 }
+
