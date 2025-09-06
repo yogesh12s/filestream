@@ -8,10 +8,11 @@ class Telegram:
     BOT_TOKEN = "7829016089:AAG4jcffLZYLyKs7VCeP6Fe_SvCQspieAuc"
 
     # ✅ If public channel, you can use username
-    CHANNEL_ID = "@chadstreamz"  
+   # CHANNEL_ID = "@chadstreamz"  
 
     # Or if private channel, use numeric ID like this:
-    #CHANNEL_ID = -1837916554
+    CHANNEL_ID = -1002613888181
+
 
     SECRET_CODE_LENGTH = 24
 
@@ -61,3 +62,4 @@ LOGGER_CONFIG_JSON = {
         }
     }
 }
+
